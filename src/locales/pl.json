@@ -1,0 +1,319 @@
+{
+  "createDream": "Utwórz Marzenie",
+  "createDreamModal": {
+    "title": "Utwórz Marzenie ✨",
+    "dreamName": "Nazwa Marzenia",
+    "dreamNamePlaceholder": "Wpisz swoje marzenie tutaj...",
+    "description": "Opis",
+    "descriptionPlaceholder": "Opowiedz nam więcej o swoim marzeniu...",
+    "fundraisingGoal": "Cel Zbiórek (USDC)",
+    "goalPlaceholder": "100",
+    "category": "Kategoria",
+    "selectCategory": "Wybierz kategorię",
+    "education": "🎓 Edukacja",
+    "health": "💊 Zdrowie",
+    "travel": "✈️ Podróże",
+    "business": "💼 Biznes",
+    "art": "🎨 Sztuka",
+    "other": "✨ Inne",
+    "cancel": "Anuluj",
+    "submit": "Utwórz ✨"
+  },
+  "homePage": {
+    "title": "Możesz marzyć,",
+    "subtitle": "tylko jeśli pomagasz innym",
+    "description": "DreamChain — platforma, gdzie marzenia stają się rzeczywistością poprzez darowizny kryptowalut. Pomóż komuś osiągnąć jego marzenie i podziel się swoim!",
+    "createDreamBtn": "✨ Utwórz Marzenie",
+    "featuredDreams": "🎯 Najlepsze Marzenia Teraz",
+    "totalDreams": "Łącznie Marzeń",
+    "activeDonors": "Aktywnych Darczyńców",
+    "completedDreams": "Ukończone Marzenia",
+    "totalRaised": "Razem Zebrano"
+  },
+  "myDreamsPage": {
+    "title": "👤 Moje Marzenia",
+    "subtitle": "Twoje marzenia i ich postęp",
+    "myDreams": "Twoje Aktywne Marzenia",
+    "noDreams": "Brak marzeń",
+    "noDreamsSubtitle": "Aby utworzyć marzenie, najpierw pomóż innym! 💝",
+    "supportDream": "Wspomóż Marzenie ✨",
+    "myDonations": "Moje Darowizny",
+    "stats": {
+      "dreams": "Marzenia",
+      "raised": "Zebrano",
+      "donors": "Darczyńców",
+      "rating": "Ocena"
+    }
+  },
+  "topDreamsPage": {
+    "title": "🔥 Najlepsze Marzenia",
+    "subtitle": "Najlepiej finansowane marzenia na platformie"
+  },
+  "newDreamsPage": {
+    "title": "🆕 Nowe Marzenia",
+    "subtitle": "Nowo utworzone marzenia społeczności"
+  },
+  "randomDreamPage": {
+    "title": "🎲 Losowe Marzenie",
+    "subtitle": "Odkryj niespodziankę dnia",
+    "getNew": "Jeszcze jedno"
+  },
+  "ratingPage": {
+    "title": "⭐ Top Darczyńcy",
+    "subtitle": "Najaktywniejsi darczyńcy społeczności",
+    "dreamer": "Marzyciel",
+    "dreamerDesc": "Nowicjusz na platformie",
+    "donor": "Darczyńca",
+    "donorDesc": "Aktywny darczyńca",
+    "angel": "Anioł",
+    "angelDesc": "Ofiarodawca",
+    "visionary": "Wizjoner",
+    "visionaryDesc": "Lider społeczności",
+    "table": {
+      "rank": "#",
+      "user": "Użytkownik",
+      "level": "Poziom",
+      "rating": "Top Darczyńca",
+      "sent": "Wysłane",
+      "received": "Odebrane",
+      "dreams": "Marzenia"
+    }
+  },
+  "header": {
+    "connected": "Połączony",
+    "connect": "Połącz Portfel"
+  },
+  "navigation": {
+    "home": "Strona Główna",
+    "top": "Najlepsze Marzenia",
+    "new": "Nowe",
+    "completed": "Ukończone",
+    "myDreams": "Moje Marzenia",
+    "rating": "Top Darczyńcy"
+  },
+  "dreamCard": {
+    "goal": "Cel",
+    "raised": "Zebrano",
+    "donors": "Darczyńców",
+    "createdAt": "Utworzone"
+  },
+  "footer": {
+    "description": "Platforma, na której marzenia stają się rzeczywistością poprzez kryptowaluty darowizny",
+    "navigation": "Nawigacja",
+    "information": "Informacja",
+    "followUs": "Śledź nas",
+    "links": {
+      "home": "Strona Główna",
+      "topDreams": "Najlepsze Marzenia",
+      "myDreams": "Moje Marzenia",
+      "rating": "Top Darczyńcy",
+      "about": "O Nas",
+      "terms": "Warunki Użytkowania",
+      "privacy": "Polityka Prywatności",
+      "contact": "Kontakt"
+    },
+    "copyright": "DreamChain. Wszystkie prawa zastrzeżone.",
+    "bottomLinks": {
+      "terms": "Warunki",
+      "privacy": "Prywatność",
+      "cookies": "Cookies"
+    }
+  },
+  "termsPage": {
+    "title": "Warunki Użytkowania",
+    "subtitle": "Proszę przeczytaj nasze warunki przed użyciem platformy",
+    "section1": {
+      "heading": "1. Akceptacja Warunków",
+      "content": "Korzystając z DreamChain, akceptujesz te warunki użytkowania. Jeśli nie zgadzasz się z jakąkolwiek częścią tych warunków, prosimy nie używać naszej platformy."
+    },
+    "section2": {
+      "heading": "2. Odpowiedzialność Użytkownika",
+      "content": "Ponosisz pełną odpowiedzialność za zachowanie poufności swoich kluczy prywatnych i dostępu do konta. DreamChain nie ponosi odpowiedzialności za nieautoryzowany dostęp do Twojego konta."
+    },
+    "section3": {
+      "heading": "3. Użytkowanie Platformy",
+      "intro": "Zgadzasz się nie używać DreamChain do:",
+      "items": [
+        "Działalności niezgodnej z prawem",
+        "Oszustwa lub zwodnictwa",
+        "Rozpowszechniania szkodliwych treści",
+        "Naruszania praw innych użytkowników"
+      ]
+    },
+    "section4": {
+      "heading": "4. Warunki Anulowania",
+      "content": "DreamChain zastrzega sobie prawo do anulowania kont użytkowników, które naruszają te warunki."
+    },
+    "section5": {
+      "heading": "5. Zastrzeżenie",
+      "content": "DreamChain jest udostępniany \"w stanie obecnym\". Nie udzielamy żadnych gwarancji dotyczących dostępności, dokładności lub kompletności platformy."
+    }
+  },
+  "termsPage": {
+    "title": "Warunki Użytkowania",
+    "subtitle": "Proszę uważnie przeczytać niniejsze warunki",
+    "section1": {
+      "heading": "1. Przegląd Platformy",
+      "content": "DreamChain to zdecentralizowana platforma, na której użytkownicy mogą tworzyć kampanie zbierania funduszy (marzenia) i wspierać innych użytkowników za pomocą stablecoina USDC w sieci blockchain Base Sepolia."
+    },
+    "section2": {
+      "heading": "2. Struktura Opłat Platformy",
+      "intro": "Gdy twórca marzenia wypłaca środki, DreamChain stosuje następującą strukturę opłat:",
+      "items": [
+        "Twórca otrzymuje: 81% zebranych środków",
+        "Opłata platformy: 19% zebranych środków",
+        "Opłaty platformy wspierają infrastrukturę, operacje i rozwój"
+      ]
+    },
+    "section3": {
+      "heading": "3. Proces Wypłaty",
+      "content": "Twórcy marzeń mogą wycofywać swoje środki, gdy osiągnięty zostanie cel zbierania funduszy. Proces wypłaty odejmuje 19% opłatę platformy od całkowitej kwoty zebranych środków. Twórcy otrzymują 81% całkowitej kwoty zebranych środków w swoim portfelu."
+    },
+    "section4": {
+      "heading": "4. Odpowiedzialność Użytkownika",
+      "intro": "Użytkownicy są odpowiedzialni za:",
+      "items": [
+        "Utrzymanie bezpieczeństwa portfela i poufności klucza prywatnego",
+        "Weryfikowanie wszystkich transakcji przed potwierdzeniem",
+        "Zapewnienie zgodności z lokalnymi prawami i przepisami",
+        "Etyczne korzystanie z platformy i niedokonywanie oszustw ani niezlegalnych działań"
+      ]
+    },
+    "section5": {
+      "heading": "5. Ograniczenia Platformy",
+      "content": "DreamChain działa w technologii blockchain i podlega warunkom sieci blockchain, opłatom sieciowym i potencjalnym opóźnieniom sieci. Nie ponosimy odpowiedzialności za opóźnienia lub problemy poza naszą kontrolą."
+    },
+    "section6": {
+      "heading": "6. Rozwiązywanie Sporów",
+      "content": "DreamChain nie mediuje w sporach między użytkownikami. Użytkownicy muszą rozstrzygać konflikty bezpośrednio lub za pośrednictwem kanałów prawnych. Zastrzegamy sobie prawo do zawieszenia kont uczestniczących w oszustwach lub naruszających niniejsze warunki."
+    },
+    "section7": {
+      "heading": "7. Modyfikacje",
+      "content": "DreamChain zastrzega sobie prawo do zmiany niniejszych warunków w dowolnym momencie. Dalsze korzystanie z platformy stanowi akceptację zaktualizowanych warunków."
+    },
+    "section8": {
+      "heading": "8. Zastrzeżenie Odpowiedzialności",
+      "content": "PLATFORMA JEST UDOSTĘPNIANA 'TAK JAK JEST' BEZ ŻADNYCH GWARANCJI. DREAMCHAIN NIE PONOSI ODPOWIEDZIALNOŚCI ZA STRATY, W TYM MIĘDZY INNYMI AWARIE TRANSAKCJI BLOCKCHAIN, KOMPROMITACJĘ PORTFELA LUB ZMIENNOŚĆ RYNKU."
+    }
+  },
+  "aboutPage": {
+    "title": "O Nas",
+    "subtitle": "Poznaj DreamChain i naszą misję",
+    "section1": {
+      "heading": "Nasza Misja",
+      "content": "DreamChain ma na celu demokratyzację spełniania marzeń poprzez łączenie marzeń z sympatyzantami na całym świecie. Wierzymy, że każda osoba zasługuje na szansę realizacji swoich pasji, a nasza platforma to ułatwia dzięki technologii blockchain i sile społeczności."
+    },
+    "section2": {
+      "heading": "Nasza Wizja",
+      "content": "Wyobrażamy sobie świat, w którym granice geograficzne i tradycyjne systemy finansowe nie ograniczają potencjału ludzkiego. DreamChain dąży do bycia mostem między ambitnymi jednostkami a hojnymi zwolennikami, wspieranym przejrzystą technologią blockchain."
+    },
+    "section3": {
+      "heading": "Jak to Działa",
+      "intro": "DreamChain działa na prostych zasadach:",
+      "items": [
+        "Stwórz marzenie z celem zbierania funduszy w USDC",
+        "Podziel się swoim marzeniem ze społecznością",
+        "Otrzymuj darowizny od zwolenników na całym świecie",
+        "Wycofaj środki po osiągnięciu celu (81% twórcy, 19% opłata platformy)",
+        "Zrealizuj swoje marzenie i inspiruj innych"
+      ]
+    },
+    "section4": {
+      "heading": "Dlaczego Blockchain",
+      "intro": "Używamy technologii blockchain z kilku kluczowych powodów:",
+      "items": [
+        "Przejrzystość: każda transakcja jest rejestrowana i weryfikowalna",
+        "Bezpieczeństwo: inteligentne kontrakty zapewniają bezpieczeństwo środków i prawidłowy ich rozkład",
+        "Dostępność: każdy z portfelem może uczestniczyć z dowolnego miejsca",
+        "Wydajność: niższe opłaty i szybsze rozliczenia w porównaniu z systemami tradycyjnymi",
+        "Zaufanie: zdecentralizowany system wyeliminuje pośredników"
+      ]
+    },
+    "section5": {
+      "heading": "Nasza Społeczność",
+      "content": "DreamChain jest zasilany przez swoją społeczność marzeń i darczyńców. Każde udostępnione marzenie, każda złożona darowizna i każdy osiągnięty cel wzmacnia nasz ekosystem. Razem tworzymy świat, w którym marzenia to nie tylko życzenia, ale osiągalne cele wspierane przez globalną sieć."
+    },
+    "section6": {
+      "heading": "Uczciwe Opłaty",
+      "content": "Utrzymujemy 19% opłatę platformy, aby wspierać infrastrukturę, rozwój i inicjatywy społeczności. 81% wszystkich darowizn trafia bezpośrednio do twórców marzeń, zapewniając maksymalny wpływ."
+    }
+  },
+  "privacyPage": {
+    "title": "Polityka Prywatności",
+    "subtitle": "Dowiedz się, jak chronimy Twoją prywatność",
+    "section1": {
+      "heading": "1. Zbieranie Informacji",
+      "content": "DreamChain zbiera minimalną ilość informacji koniecznej do funkcjonowania platformy. Główne informacje obejmują skrót adresu Twojego portfela i historię transakcji."
+    },
+    "section2": {
+      "heading": "2. Użytkowanie Danych",
+      "intro": "Używamy Twoich informacji do:",
+      "items": [
+        "Świadczenia usług platformy",
+        "Poprawy doświadczenia użytkownika",
+        "Zapobiegania oszustwom",
+        "Zgodności z obowiązkami prawnymi"
+      ]
+    },
+    "section3": {
+      "heading": "3. Bezpieczeństwo Danych",
+      "content": "Wykorzystujemy nowoczesne metody szyfrowania do ochrony Twoich danych. Jednak żaden system nie jest całkowicie bezpieczny. Nie możemy zagwarantować pełnej ochrony przed wszystkimi zagrożeniami bezpieczeństwa."
+    },
+    "section4": {
+      "heading": "4. Pliki Cookie",
+      "content": "DreamChain używa plików cookie w celu poprawy doświadczenia użytkownika. Możesz wyłączyć pliki cookie w ustawieniach przeglądarki, ale może to wpłynąć na funkcjonalność platformy."
+    },
+    "section5": {
+      "heading": "5. Usługi Trzecich Stron",
+      "content": "DreamChain nie ponosi odpowiedzialności za politykę prywatności usług trzecich, w tym portfeli i sieci blockchain. Prosimy zapoznaj się z ich polityką prywatności oddzielnie."
+    },
+    "section6": {
+      "heading": "6. Kontakt",
+      "content": "Jeśli masz pytania dotyczące naszej polityki prywatności, prosimy skontaktuj się z nami za pośrednictwem formularza kontaktowego na naszej stronie internetowej."
+    }
+  },
+  "profile": {
+    "created": "Utworzone",
+    "rating": "Ocena",
+    "donated": "Darowany",
+    "received": "Otrzymany",
+    "createdDreams": "Utworzone Marzenia",
+    "noDreams": "Brak marzeń do wyświetlenia",
+    "notFound": "Profil użytkownika nie znaleziony",
+    "loadError": "Błąd podczas ładowania profilu użytkownika",
+    "tabCreated": "Utworzone Marzenia",
+    "tabDonated": "Wspierał",
+    "tabCompleted": "Ukończone"
+  },
+  "contactPage": {
+    "title": "Skontaktuj się z nami",
+    "subtitle": "Chętnie usłyszymy od Ciebie",
+    "email": "Email",
+    "website": "Strona internetowa",
+    "form": {
+      "name": "Twoje imię",
+      "namePlaceholder": "Jan Kowalski",
+      "email": "Adres E-mail",
+      "emailPlaceholder": "ty@example.com",
+      "subject": "Temat",
+      "subjectPlaceholder": "W czym możemy Ci pomóc?",
+      "message": "Wiadomość",
+      "messagePlaceholder": "Powiedz nam więcej...",
+      "submit": "Wyślij wiadomość",
+      "sending": "Wysyłanie..."
+    },
+    "successMessage": "Dziękuję! Twoja wiadomość została wysyłana pomyślnie.",
+    "errorMessage": "Ups! Coś poszło nie tak. Spróbuj ponownie.",
+    "faq": "Często Zadawane Pytania",
+    "faqItems": {
+      "q1": "Jak mogę skontaktować się z obsługą?",
+      "a1": "Możesz skontaktować się z naszym zespołem wsparcia poprzez ten formularz lub wyślij nam e-mail na hello@dreamchain.io",
+      "q2": "Jaki jest czas odpowiedzi?",
+      "a2": "Zwykle odpowiadamy na zapytania w ciągu 24-48 godzin",
+      "q3": "Czy mogę zgłosić problem z bezpieczeństwem?",
+      "a3": "Tak, skontaktuj się z nami natychmiast, jeśli masz problemy z bezpieczeństwem. Bierzemy wszystkie raporty poważnie"
+    }
+  },
+  "common": {
+    "loading": "Ładowanie..."
+  }}

@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+body {
+  font-family: 'Poppins', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  background: linear-gradient(135deg, #1a1410 0%, #2d2420 50%, #1f1a15 100%);
+  color: #e0e0e0;
+  min-height: 100vh;
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+/* Custom scrollbar - Webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 10px !important;
+  height: 10px !important;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: none !important;
+}
+
+::-webkit-scrollbar-track:hover {
+  background: transparent !important;
+}
+
+::-webkit-scrollbar-button {
+  height: 0 !important;
+  width: 0 !important;
+  background: transparent !important;
+  display: none !important;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent !important;
+}
+
+::-webkit-scrollbar-track-piece {
+  background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #00d9ff 0%, #b537f2 100%) !important;
+  border-radius: 10px !important;
+  border: none !important;
+  min-height: 40px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #00ffff 0%, #d45fff 100%) !important;
+  box-shadow: 0 0 15px rgba(0, 217, 255, 0.6) !important;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: linear-gradient(180deg, #00ffff 0%, #d45fff 100%) !important;
+}
+
+/* Gradient text effect */
+.gradient-text {
+  background: linear-gradient(135deg, #00d9ff 0%, #b537f2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Glassmorphism effect */
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Dream card glow */
+.dream-card-glow {
+  transition: all 0.3s ease;
+}
+
+.dream-card-glow:hover {
+  box-shadow: 0 0 30px rgba(0, 217, 255, 0.4);
+  transform: translateY(-5px);
+}
+
+/* Neon glow text */
+.neon-text {
+  text-shadow: 
+    0 0 10px rgba(0, 217, 255, 0.7),
+    0 0 20px rgba(181, 55, 242, 0.5);
+}
+
+/* Emoji support */
+.emoji-flag {
+  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+  font-size: 1.25em;
+  line-height: 1;
+  display: inline-block;
+}
+
+/* Animate in */
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-in {
+  animation: slideInUp 0.5s ease-out;
+}

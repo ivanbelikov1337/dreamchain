@@ -1,0 +1,319 @@
+{
+  "createDream": "Create Dream",
+  "createDreamModal": {
+    "title": "Create a Dream ✨",
+    "dreamName": "Dream Name",
+    "dreamNamePlaceholder": "Write your dream here...",
+    "description": "Description",
+    "descriptionPlaceholder": "Tell us more about your dream...",
+    "fundraisingGoal": "Fundraising Goal (USDC)",
+    "goalPlaceholder": "100",
+    "category": "Category",
+    "selectCategory": "Select category",
+    "education": "🎓 Education",
+    "health": "💊 Health",
+    "travel": "✈️ Travel",
+    "business": "💼 Business",
+    "art": "🎨 Art",
+    "other": "✨ Other",
+    "cancel": "Cancel",
+    "submit": "Create ✨"
+  },
+  "homePage": {
+    "title": "You can dream,",
+    "subtitle": "only if you help others",
+    "description": "DreamChain — a platform where dreams become reality through crypto donations. Help someone achieve their dream and share yours!",
+    "createDreamBtn": "✨ Create Dream",
+    "featuredDreams": "🎯 Top Dreams Right Now",
+    "totalDreams": "Total Dreams",
+    "activeDonors": "Active Donors",
+    "completedDreams": "Completed Dreams",
+    "totalRaised": "Total Raised"
+  },
+  "myDreamsPage": {
+    "title": "👤 My Dreams",
+    "subtitle": "Your dreams and progress",
+    "myDreams": "Your Active Dreams",
+    "noDreams": "No dreams yet",
+    "noDreamsSubtitle": "To create a dream, first help others! 💝",
+    "supportDream": "Support a dream ✨",
+    "myDonations": "My Donations",
+    "stats": {
+      "dreams": "Dreams",
+      "raised": "Raised",
+      "donors": "Donors",
+      "rating": "Rating"
+    }
+  },
+  "topDreamsPage": {
+    "title": "🔥 Top Dreams",
+    "subtitle": "Most funded dreams on the platform"
+  },
+  "newDreamsPage": {
+    "title": "🆕 New Dreams",
+    "subtitle": "Newly created community dreams"
+  },
+  "randomDreamPage": {
+    "title": "🎲 Random Dream",
+    "subtitle": "Discover today's surprise",
+    "getNew": "Get Another"
+  },
+  "ratingPage": {
+    "title": "⭐ Top Donors",
+    "subtitle": "Most active community donors",
+    "dreamer": "Dreamer",
+    "dreamerDesc": "Platform newcomer",
+    "donor": "Donor",
+    "donorDesc": "Active donor",
+    "angel": "Angel",
+    "angelDesc": "Charity supporter",
+    "visionary": "Visionary",
+    "visionaryDesc": "Community leader",
+    "table": {
+      "rank": "#",
+      "user": "User",
+      "level": "Level",
+      "rating": "Top Donor",
+      "sent": "Sent",
+      "received": "Received",
+      "dreams": "Dreams"
+    }
+  },
+  "header": {
+    "connected": "Connected",
+    "connect": "Connect Wallet"
+  },
+  "navigation": {
+    "home": "Home",
+    "top": "Top Dreams",
+    "new": "New",
+    "completed": "Completed",
+    "myDreams": "My Dreams",
+    "rating": "Top Donors"
+  },
+  "dreamCard": {
+    "goal": "Goal",
+    "raised": "Raised",
+    "donors": "Donors",
+    "createdAt": "Created"
+  },
+  "footer": {
+    "description": "A platform where dreams become reality through crypto donations",
+    "navigation": "Navigation",
+    "information": "Information",
+    "followUs": "Follow Us",
+    "links": {
+      "home": "Home",
+      "topDreams": "Top Dreams",
+      "myDreams": "My Dreams",
+      "rating": "Top Donors",
+      "about": "About Us",
+      "terms": "Terms of Use",
+      "privacy": "Privacy Policy",
+      "contact": "Contact"
+    },
+    "copyright": "DreamChain. All rights reserved.",
+    "bottomLinks": {
+      "terms": "Terms",
+      "privacy": "Privacy",
+      "cookies": "Cookies"
+    }
+  },
+  "termsPage": {
+    "title": "Terms of Use",
+    "subtitle": "Please read our terms before using the platform",
+    "section1": {
+      "heading": "1. Acceptance of Terms",
+      "content": "By using DreamChain, you accept these terms of use. If you do not agree with any part of these terms, please do not use our platform."
+    },
+    "section2": {
+      "heading": "2. User Responsibility",
+      "content": "You are fully responsible for maintaining the confidentiality of your private keys and account access. DreamChain is not responsible for unauthorized access to your account."
+    },
+    "section3": {
+      "heading": "3. Platform Usage",
+      "intro": "You agree not to use DreamChain for:",
+      "items": [
+        "Illegal activities",
+        "Fraud or deception",
+        "Distribution of harmful content",
+        "Violation of other users' rights"
+      ]
+    },
+    "section4": {
+      "heading": "4. Cancellation Terms",
+      "content": "DreamChain reserves the right to cancel user accounts that violate these terms."
+    },
+    "section5": {
+      "heading": "5. Disclaimer",
+      "content": "DreamChain is provided \"as is\". We provide no warranties regarding the availability, accuracy, or completeness of the platform."
+    }
+  },
+  "termsPage": {
+    "title": "Terms of Use",
+    "subtitle": "Please read these terms carefully",
+    "section1": {
+      "heading": "1. Platform Overview",
+      "content": "DreamChain is a decentralized platform where users can create fundraising campaigns (dreams) and donate to other users' campaigns using USDC stablecoin on the Base Sepolia blockchain."
+    },
+    "section2": {
+      "heading": "2. Platform Fee Structure",
+      "intro": "When a dream creator withdraws funds, DreamChain applies the following fee structure:",
+      "items": [
+        "Creator receives: 81% of raised funds",
+        "Platform fee: 19% of raised funds",
+        "Platform fees support infrastructure, operations, and future development"
+      ]
+    },
+    "section3": {
+      "heading": "3. Withdrawal Process",
+      "content": "Dream creators can withdraw their funds once the fundraising goal is reached. The withdrawal process deducts 19% platform fee from the total amount raised. Creators receive 81% of the total raised amount in their wallet."
+    },
+    "section4": {
+      "heading": "4. User Responsibilities",
+      "intro": "Users are responsible for:",
+      "items": [
+        "Maintaining wallet security and private key confidentiality",
+        "Verifying all transactions before confirmation",
+        "Ensuring they comply with local laws and regulations",
+        "Using the platform ethically and not for fraud or illegal activities"
+      ]
+    },
+    "section5": {
+      "heading": "5. Platform Limitations",
+      "content": "DreamChain operates on blockchain technology and is subject to blockchain network conditions, transaction fees, and potential network delays. We are not responsible for delays or issues beyond our control."
+    },
+    "section6": {
+      "heading": "6. Dispute Resolution",
+      "content": "DreamChain does not mediate disputes between users. Users must resolve conflicts directly or through legal channels. We reserve the right to suspend accounts engaged in fraudulent activities or violating these terms."
+    },
+    "section7": {
+      "heading": "7. Modifications",
+      "content": "DreamChain reserves the right to modify these terms at any time. Continued use of the platform constitutes acceptance of updated terms."
+    },
+    "section8": {
+      "heading": "8. Disclaimer",
+      "content": "THE PLATFORM IS PROVIDED 'AS IS' WITHOUT ANY WARRANTIES. DREAMCHAIN IS NOT RESPONSIBLE FOR LOSSES, INCLUDING BUT NOT LIMITED TO BLOCKCHAIN TRANSACTION FAILURES, WALLET COMPROMISES, OR MARKET VOLATILITY."
+    }
+  },
+  "aboutPage": {
+    "title": "About Us",
+    "subtitle": "Learn about DreamChain and our mission",
+    "section1": {
+      "heading": "Our Mission",
+      "content": "DreamChain is on a mission to democratize dream-fulfillment by connecting dreamers with supporters worldwide. We believe every person deserves a chance to pursue their passion, and our platform makes it easier through blockchain technology and the power of community."
+    },
+    "section2": {
+      "heading": "Our Vision",
+      "content": "We envision a world where geographical boundaries and traditional financial systems don't limit human potential. DreamChain aims to be the bridge between ambitious individuals and generous supporters, powered by transparent blockchain technology."
+    },
+    "section3": {
+      "heading": "How It Works",
+      "intro": "DreamChain operates on simple principles:",
+      "items": [
+        "Create a dream with a fundraising goal in USDC stablecoin",
+        "Share your dream with the community",
+        "Receive donations from supporters worldwide",
+        "Withdraw funds once your goal is reached (81% to creator, 19% platform fee)",
+        "Complete your dream and inspire others"
+      ]
+    },
+    "section4": {
+      "heading": "Why Blockchain",
+      "intro": "We use blockchain technology for several key reasons:",
+      "items": [
+        "Transparency: Every transaction is recorded and verifiable",
+        "Security: Smart contracts ensure funds are safe and properly distributed",
+        "Accessibility: Anyone with a wallet can participate from anywhere",
+        "Efficiency: Lower fees and faster settlements compared to traditional systems",
+        "Trust: Decentralized system eliminates intermediaries"
+      ]
+    },
+    "section5": {
+      "heading": "Our Community",
+      "content": "DreamChain is powered by its community of dreamers and donors. Every dream shared, every donation made, and every goal reached strengthens our ecosystem. Together, we're creating a world where dreams aren't just wishes—they're achievable goals supported by a global network."
+    },
+    "section6": {
+      "heading": "Fair Fees",
+      "content": "We maintain a 19% platform fee to support infrastructure, development, and community initiatives. 81% of all donations go directly to dream creators, ensuring maximum impact."
+    }
+  },
+  "privacyPage": {
+    "title": "Privacy Policy",
+    "subtitle": "Learn how we protect your privacy",
+    "section1": {
+      "heading": "1. Information Collection",
+      "content": "DreamChain collects minimal information necessary for platform operation. Main information includes your wallet address hash and transaction history."
+    },
+    "section2": {
+      "heading": "2. Data Usage",
+      "intro": "We use your information to:",
+      "items": [
+        "Provide platform services",
+        "Improve user experience",
+        "Prevent fraud",
+        "Comply with legal obligations"
+      ]
+    },
+    "section3": {
+      "heading": "3. Data Security",
+      "content": "We use modern encryption methods to protect your data. However, no system is absolutely secure. We cannot guarantee complete protection from all security threats."
+    },
+    "section4": {
+      "heading": "4. Cookies",
+      "content": "DreamChain uses cookies to improve user experience. You can disable cookies in your browser settings, but this may affect platform functionality."
+    },
+    "section5": {
+      "heading": "5. Third-Party Services",
+      "content": "DreamChain is not responsible for the privacy policies of third-party services, including wallets and blockchain networks. Please review their privacy policies separately."
+    },
+    "section6": {
+      "heading": "6. Contact",
+      "content": "If you have questions about our privacy policy, please contact us through the contact form on our website."
+    }
+  },
+  "profile": {
+    "created": "Created",
+    "rating": "Rating",
+    "donated": "Donated",
+    "received": "Received",
+    "createdDreams": "Created Dreams",
+    "noDreams": "No dreams to show",
+    "notFound": "User profile not found",
+    "loadError": "Error loading user profile",
+    "tabCreated": "Created Dreams",
+    "tabDonated": "Donated To",
+    "tabCompleted": "Completed"
+  },
+  "contactPage": {
+    "title": "Contact Us",
+    "subtitle": "We'd love to hear from you",
+    "email": "Email",
+    "website": "Website",
+    "form": {
+      "name": "Your Name",
+      "namePlaceholder": "John Doe",
+      "email": "Email Address",
+      "emailPlaceholder": "you@example.com",
+      "subject": "Subject",
+      "subjectPlaceholder": "How can we help?",
+      "message": "Message",
+      "messagePlaceholder": "Tell us more...",
+      "submit": "Send Message",
+      "sending": "Sending..."
+    },
+    "successMessage": "Thank you! Your message has been sent successfully.",
+    "errorMessage": "Oops! Something went wrong. Please try again.",
+    "faq": "Frequently Asked Questions",
+    "faqItems": {
+      "q1": "How can I contact support?",
+      "a1": "You can reach our support team through this contact form or email us at hello@dreamchain.io",
+      "q2": "What is the response time?",
+      "a2": "We typically respond to inquiries within 24-48 hours",
+      "q3": "Can I report a security issue?",
+      "a3": "Yes, please contact us immediately with security concerns. We take all reports seriously"
+    }
+  },
+  "common": {
+    "loading": "Loading..."
+  }}

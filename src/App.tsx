@@ -143,7 +143,7 @@ function AppLayout() {
           </Routes>
         </main>
 
-        <Footer setCurrentPage={handleNavigate} />
+        <Footer />
       </div>
     </>
   )

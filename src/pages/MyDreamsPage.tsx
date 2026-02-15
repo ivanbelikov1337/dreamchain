@@ -122,7 +122,10 @@ const MyDreamsPage = observer(function MyDreamsPage() {
               <p className="text-gray-500 mb-6">
                 To create a dream, first help others! 💝
               </p>
-              <button className="px-6 py-2 bg-gradient-to-r from-neon-blue to-neon-purple text-white font-semibold rounded-lg hover:shadow-neon">
+              <button 
+                onClick={() => navigate('/')}
+                className="px-6 py-2 bg-gradient-to-r from-neon-blue to-neon-purple text-white font-semibold rounded-lg hover:shadow-neon"
+              >
                 Support a dream ✨
               </button>
             </div>

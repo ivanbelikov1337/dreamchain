@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import { observer } from 'mobx-react-lite'
 import { useTranslation } from 'react-i18next'
+import { useAccount } from 'wagmi'
 import DreamCard from '../components/DreamCard'
 import { useStore } from '../stores/StoreContext'
 import type { Dream } from '../stores/DreamStore'
@@ -14,12 +15,29 @@ const HomePage = observer(function HomePage({
   onOpenProfile: (walletAddress: string) => void
 }) {
   const { t } = useTranslation()
-  const { dreamStore } = useStore()
+  const { dreamStore, userStore, uiStore } = useStore()
+  const { address } = useAccount()
 
   useEffect(() => {
     dreamStore.loadDreams(1, 3)
     dreamStore.loadDreamStats()
   }, [dreamStore])
+
+  const handleCreateDreamClick = async () => {
+    if (!address) {
+      setIsModalOpen(true)
+      return
+    }
+
+    // Load current user to check chances
+    const user = await userStore.getOrCreateUserByWallet(address)
+    
+    if (user.chances > 0) {
+      uiStore.openCreateDreamModal()
+    } else {
+      uiStore.openNoChancesModal()
+    }
+  }
 
   return (
     <div className="space-y-8">
@@ -34,7 +52,7 @@ const HomePage = observer(function HomePage({
           {t('homePage.description')}
         </p>
         <button
-          onClick={() => setIsModalOpen(true)}
+          onClick={handleCreateDreamClick}
           className="px-8 py-4 bg-gradient-to-r from-neon-blue to-neon-purple text-white font-bold rounded-lg hover:shadow-neon transition-all text-2xl hover:scale-105 hover:brightness-110"
         >
           {t('homePage.createDreamBtn')}

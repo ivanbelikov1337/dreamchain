@@ -19,6 +19,20 @@
     "cancel": "Cancel",
     "submit": "Create ✨"
   },
+  "noChancesModal": {
+    "title": "💡 Create a Dream",
+    "description": "To create a dream, you need to donate at least",
+    "descriptionAmount": "1 USDC",
+    "descriptionSuffix": "to someone first!",
+    "howItWorks": "How it works:",
+    "tier1": "1 USDC donation = 1 chance to create a dream",
+    "tier2": "5 USDC donation = 1 chance",
+    "tier3": "15 USDC donation = 1 chance",
+    "tierMore": "Every additional 15 USDC = 1 chance",
+    "yourChances": "Your chances:",
+    "callToAction": "Go to a dream you like and donate to unlock your chance to create one! 🚀",
+    "gotIt": "Got it! 👍"
+  },
   "homePage": {
     "title": "You can dream,",
     "subtitle": "only if you help others",
@@ -277,6 +291,7 @@
     "rating": "Rating",
     "donated": "Donated",
     "received": "Received",
+    "chances": "Dream Chances",
     "createdDreams": "Created Dreams",
     "noDreams": "No dreams to show",
     "notFound": "User profile not found",

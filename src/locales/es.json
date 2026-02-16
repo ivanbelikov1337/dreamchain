@@ -19,6 +19,20 @@
     "cancel": "Cancelar",
     "submit": "Crear ✨"
   },
+  "noChancesModal": {
+    "title": "💡 Crear un Sueño",
+    "description": "Para crear un sueño, primero necesitas donar al menos",
+    "descriptionAmount": "1 USDC",
+    "descriptionSuffix": "¡a alguien!",
+    "howItWorks": "¿Cómo funciona?",
+    "tier1": "Donación de 1 USDC = 1 oportunidad para crear un sueño",
+    "tier2": "Donación de 5 USDC = 1 oportunidad",
+    "tier3": "Donación de 15 USDC = 1 oportunidad",
+    "tierMore": "Por cada 15 USDC adicionales = 1 oportunidad",
+    "yourChances": "Tus oportunidades:",
+    "callToAction": "¡Ve a un sueño que te guste y dona para desbloquear tu oportunidad de crear el tuyo! 🚀",
+    "gotIt": "¡Entendido! 👍"
+  },
   "homePage": {
     "title": "Puedes soñar,",
     "subtitle": "solo si ayudas a otros",
@@ -277,6 +291,7 @@
     "rating": "Calificación",
     "donated": "Donado",
     "received": "Recibido",
+    "chances": "Oportunidades de Sueño",
     "createdDreams": "Sueños Creados",
     "noDreams": "No hay sueños para mostrar",
     "notFound": "Perfil de usuario no encontrado",

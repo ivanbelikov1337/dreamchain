@@ -19,6 +19,20 @@
     "cancel": "Anuluj",
     "submit": "Utwórz ✨"
   },
+  "noChancesModal": {
+    "title": "💡 Utwórz Marzenie",
+    "description": "Aby utworzyć marzenie, musisz najpierw podarować co najmniej",
+    "descriptionAmount": "1 USDC",
+    "descriptionSuffix": "komuś!",
+    "howItWorks": "Jak to działa:",
+    "tier1": "Darowizna 1 USDC = 1 szansa na utworzenie marzenia",
+    "tier2": "Darowizna 5 USDC = 1 szansa",
+    "tier3": "Darowizna 15 USDC = 1 szansa",
+    "tierMore": "Za każde dodatkowe 15 USDC = 1 szansa",
+    "yourChances": "Twoje szanse:",
+    "callToAction": "Przejdź do marzenia, które Ci się podoba, i podaruj, aby odblokować swoją szansę na utworzenie własnego! 🚀",
+    "gotIt": "Zrozumiałem! 👍"
+  },
   "homePage": {
     "title": "Możesz marzyć,",
     "subtitle": "tylko jeśli pomagasz innym",
@@ -276,8 +290,7 @@
     "created": "Utworzone",
     "rating": "Ocena",
     "donated": "Darowany",
-    "received": "Otrzymany",
-    "createdDreams": "Utworzone Marzenia",
+    "received": "Otrzymany",    "chances": "Całe Szanse Marzeń",    "createdDreams": "Utworzone Marzenia",
     "noDreams": "Brak marzeń do wyświetlenia",
     "notFound": "Profil użytkownika nie znaleziony",
     "loadError": "Błąd podczas ładowania profilu użytkownika",

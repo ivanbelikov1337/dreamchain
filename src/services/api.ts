@@ -31,6 +31,7 @@ export interface User {
   totalDonated?: number
   totalReceived?: number
   avatar?: string
+  chances?: number
   createdAt: string
   updatedAt?: string
   dreams?: Dream[]

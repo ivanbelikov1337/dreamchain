@@ -2,6 +2,7 @@ import { makeAutoObservable } from 'mobx'
 
 export class UIStore {
   isCreateDreamModalOpen = false
+  isNoChancesModalOpen = false
 
   constructor() {
     makeAutoObservable(this)
@@ -13,5 +14,13 @@ export class UIStore {
 
   closeCreateDreamModal() {
     this.isCreateDreamModalOpen = false
+  }
+
+  openNoChancesModal() {
+    this.isNoChancesModalOpen = true
+  }
+
+  closeNoChancesModal() {
+    this.isNoChancesModalOpen = false
   }
 }

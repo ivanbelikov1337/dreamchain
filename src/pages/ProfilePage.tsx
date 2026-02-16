@@ -129,7 +129,7 @@ function ProfilePageComponent({ walletAddress, onOpenProfile }: ProfilePageProps
               </div>
 
               {/* Stats Grid */}
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 pt-4">
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 pt-4">
                 <div className="bg-dark-900 bg-opacity-50 rounded-lg p-4 border border-neon-yellow border-opacity-20">
                   <div className="text-gray-400 text-xs md:text-sm">{t('profile.created')}</div>
                   <div className="text-xl md:text-2xl font-bold text-neon-yellow">
@@ -157,6 +157,15 @@ function ProfilePageComponent({ walletAddress, onOpenProfile }: ProfilePageProps
                     ${(user.totalReceived || 0).toFixed(2)}
                   </div>
                 </div>
+
+                {isOwnProfile && (
+                  <div className="bg-dark-900 bg-opacity-50 rounded-lg p-4 border border-neon-purple border-opacity-20">
+                    <div className="text-gray-400 text-xs md:text-sm">{t('profile.chances')}</div>
+                    <div className="text-xl md:text-2xl font-bold text-neon-purple">
+                      {user.chances || 0}
+                    </div>
+                  </div>
+                )}
               </div>
             </div>
           </div>

@@ -8,6 +8,7 @@ import { observer } from 'mobx-react-lite'
 import { StoreProvider } from './stores/StoreProvider'
 import { useStore } from './stores/StoreContext'
 import CreateDreamModal from './components/CreateDreamModal'
+import NoChancesModal from './components/NoChancesModal'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import HomePage from './pages/HomePage'
@@ -96,7 +97,7 @@ function ProfilePageWrapper() {
 
 function AppLayout() {
   const navigate = useNavigate()
-  const { uiStore } = useStore()
+  const { uiStore, userStore } = useStore()
 
   const handleNavigate = (page: Page) => {
     const pathMap: { [key in Page]: string } = {
@@ -123,6 +124,11 @@ function AppLayout() {
         onDreamCreated={() => {
           uiStore.closeCreateDreamModal()
         }}
+      />
+      <NoChancesModal
+        isOpen={uiStore.isNoChancesModalOpen}
+        onClose={() => uiStore.closeNoChancesModal()}
+        chances={userStore.currentUser?.chances || 0}
       />
       <div className="min-h-screen bg-gradient-to-br from-dark-900 via-dark-800 to-dark-900 flex flex-col">
         <Header currentPage="home" setCurrentPage={handleNavigate} onOpenProfile={(wallet) => navigate(`/profile/${wallet}`)} />

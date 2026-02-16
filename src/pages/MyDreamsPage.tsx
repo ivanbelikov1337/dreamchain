@@ -17,7 +17,7 @@ const MyDreamsPage = observer(function MyDreamsPage() {
       }
 
       try {
-        await userStore.getOrCreateUserByWallet(address, `User-${address.slice(2, 8)}`)
+        await userStore.getOrCreateUserByWallet(address)
         await dreamStore.loadUserDreams(address)
         await donationStore.loadByWallet(address)
       } catch (err) {

@@ -179,16 +179,31 @@ export default function Header({ currentPage: _, setCurrentPage, onOpenProfile }
             {/* User avatar and wallet info */}
             {isConnected && avatarUrl && (
               <div 
-                onClick={() => open()}
-                className="flex flex-col items-center gap-4 py-8 border-b border-neon-blue border-opacity-20 px-4 cursor-pointer hover:bg-gray-700 hover:bg-opacity-30 rounded-lg transition-all"
+                className="flex flex-col items-center gap-4 py-8 border-b border-neon-blue border-opacity-20 px-4"
               >
-                <img
-                  src={avatarUrl}
-                  alt="Profile"
-                  className="w-20 h-20 rounded-full border-3 border-neon-blue"
-                />
+                <button
+                  onClick={() => {
+                    if (address) {
+                      onOpenProfile(address)
+                    }
+                    setIsMenuOpen(false)
+                  }}
+                  title="View your profile"
+                  className="w-20 h-20 rounded-full border-3 border-neon-blue hover:border-neon-purple transition-colors"
+                >
+                  <img
+                    src={avatarUrl}
+                    alt="Profile"
+                    className="w-full h-full rounded-full object-cover"
+                  />
+                </button>
                 <div className="text-center">
-                  <p className="text-neon-blue font-semibold text-lg hover:text-neon-purple transition-all">{address?.slice(0, 6)}...{address?.slice(-4)}</p>
+                  <button
+                    onClick={() => open()}
+                    className="text-neon-blue font-semibold text-lg hover:text-neon-purple transition-all cursor-pointer"
+                  >
+                    {address?.slice(0, 6)}...{address?.slice(-4)}
+                  </button>
                   <p className="text-gray-400 text-sm">Click to manage</p>
                 </div>
               </div>

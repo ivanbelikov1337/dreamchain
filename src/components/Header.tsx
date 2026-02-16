@@ -4,6 +4,7 @@ import { ImExit } from "react-icons/im";
 import { useTranslation } from 'react-i18next'
 import { useState, useEffect } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
+import { useStore } from '../stores/StoreContext'
 import LanguageSwitcher from "./LanguageSwitcher";
 
 type Page = 'home' | 'top' | 'new' | 'completed' | 'my' | 'rating' | 'terms' | 'privacy' | 'profile'
@@ -38,11 +39,21 @@ export default function Header({ currentPage: _, setCurrentPage, onOpenProfile }
   const { open } = useAppKit();
   const { address, isConnected } = useAppKitAccount();
   const { disconnect } = useDisconnect();
+  const { userStore } = useStore()
   const avatarUrl = getAvatarUrl(address);
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const location = useLocation()
   const navigate = useNavigate()
   const currentPage = getPageFromPath(location.pathname)
+
+  // Create user on backend when wallet connects
+  useEffect(() => {
+    if (isConnected && address) {
+      userStore.getOrCreateUserByWallet(address).catch((err) => {
+        console.error('Error creating/getting user on wallet connect:', err)
+      })
+    }
+  }, [isConnected, address, userStore])
 
   // Prevent body scroll when menu is open
   useEffect(() => {

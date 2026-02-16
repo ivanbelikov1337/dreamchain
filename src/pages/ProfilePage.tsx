@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useAccount } from 'wagmi'
 import { FaCog } from 'react-icons/fa'
+import { Tooltip } from 'react-tooltip'
 import React from 'react'
 import { useStore } from '../stores/StoreContext'
 import CreatedTab from '../components/profile/CreatedTab'
@@ -159,7 +160,11 @@ function ProfilePageComponent({ walletAddress, onOpenProfile }: ProfilePageProps
                 </div>
 
                 {isOwnProfile && (
-                  <div className="bg-dark-900 bg-opacity-50 rounded-lg p-4 border border-neon-purple border-opacity-20">
+                  <div 
+                    className="bg-dark-900 bg-opacity-50 rounded-lg p-4 border border-neon-purple border-opacity-20 cursor-pointer"
+                    data-tooltip-id="stat-chances"
+                    data-tooltip-content="Remaining chances to create new dreams (earn by donating to others)"
+                  >
                     <div className="text-gray-400 text-xs md:text-sm">{t('profile.chances')}</div>
                     <div className="text-xl md:text-2xl font-bold text-neon-purple">
                       {user.chances || 0}
@@ -167,6 +172,7 @@ function ProfilePageComponent({ walletAddress, onOpenProfile }: ProfilePageProps
                   </div>
                 )}
               </div>
+              <Tooltip id="stat-chances" place="top" />
             </div>
           </div>
         </div>

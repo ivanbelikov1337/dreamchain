@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { observer } from 'mobx-react-lite'
 import { useAccount, usePublicClient, useWalletClient } from 'wagmi'
+import { Tooltip } from 'react-tooltip'
 import { donateToDream, withdrawDream } from '../services/contracts'
 import { useStore } from '../stores/StoreContext'
 import type { Dream } from '../stores/DreamStore'
@@ -261,9 +262,14 @@ const DreamCard = observer(function DreamCard({
           <span className="text-sm text-gray-400 truncate">
             {truncateAddress(owner.address)}
           </span>
-          <span className="text-neon-green flex items-center gap-1 whitespace-nowrap ml-auto">
+          <span 
+            className="text-neon-green flex items-center gap-1 whitespace-nowrap ml-auto cursor-pointer"
+            data-tooltip-id={`dream-rating-${id}`}
+            data-tooltip-content="Dream rating based on donations received"
+          >
             ⭐ {rating.toFixed(0)}
           </span>
+          <Tooltip id={`dream-rating-${id}`} place="top" />
         </div>
 
         {/* Description */}
@@ -273,11 +279,23 @@ const DreamCard = observer(function DreamCard({
         {goal && (
           <div className="mb-4">
             <div className="mb-2 flex justify-between items-center text-xs">
-              <span className="text-gray-500">{progressPercent.toFixed(0)}% raised</span>
-              <span className="text-neon-blue font-semibold">
+              <span 
+                className="text-gray-500 cursor-pointer"
+                data-tooltip-id={`dream-progress-${id}`}
+                data-tooltip-content="Percentage of goal funds raised"
+              >
+                {progressPercent.toFixed(0)}% raised
+              </span>
+              <span 
+                className="text-neon-blue font-semibold cursor-pointer"
+                data-tooltip-id={`dream-funds-${id}`}
+                data-tooltip-content={`${raisedAmount} raised out of ${goalAmount} goal`}
+              >
                 {raisedAmount} / {goalAmount} {currency || 'USDC'}
               </span>
             </div>
+            <Tooltip id={`dream-progress-${id}`} place="top" />
+            <Tooltip id={`dream-funds-${id}`} place="top" />
             <div className="w-full bg-gray-700 rounded-full h-3 overflow-hidden border border-gray-600">
               <div
                 className="h-full transition-all duration-500 ease-out block"

@@ -1,5 +1,6 @@
-import { BrowserRouter, Routes, Route, useNavigate, useParams } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, useNavigate, useParams, useLocation } from 'react-router-dom'
 import { createAppKit } from '@reown/appkit/react'
+import { useEffect } from 'react'
 import { WagmiProvider } from 'wagmi'
 import { baseSepolia } from '@reown/appkit/networks'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
@@ -97,7 +98,14 @@ function ProfilePageWrapper() {
 
 function AppLayout() {
   const navigate = useNavigate()
+  const location = useLocation()
   const { uiStore, userStore } = useStore()
+
+  // Close modals when navigation happens
+  useEffect(() => {
+    uiStore.closeCreateDreamModal()
+    uiStore.closeNoChancesModal()
+  }, [location.pathname, uiStore])
 
   const handleNavigate = (page: Page) => {
     const pathMap: { [key in Page]: string } = {

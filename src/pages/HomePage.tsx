@@ -33,7 +33,7 @@ const HomePage = observer(function HomePage({
       // Refresh current user to get latest chances data from server
       const user = await userStore.refreshCurrentUser(address)
       
-      if (user.chances > 0) {
+      if (user && user.chances && user.chances > 0) {
         uiStore.openCreateDreamModal()
       } else {
         uiStore.openNoChancesModal()
@@ -42,7 +42,7 @@ const HomePage = observer(function HomePage({
       console.error('Error loading user data:', err)
       // Fallback: try to create/get user
       const user = await userStore.getOrCreateUserByWallet(address)
-      if (user.chances > 0) {
+      if (user && user.chances && user.chances > 0) {
         uiStore.openCreateDreamModal()
       } else {
         uiStore.openNoChancesModal()

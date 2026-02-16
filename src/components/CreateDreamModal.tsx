@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useAccount, usePublicClient, useWalletClient } from 'wagmi'
+import { useAppKit } from '@reown/appkit/react'
 import { useStore } from '../stores/StoreContext'
 import { createDreamInContract } from '../services/contracts'
 import Toast, { type ToastType } from './Toast'
@@ -26,6 +27,7 @@ export default function CreateDreamModal({
   onDreamCreated?: () => void
 }) {
   const { address } = useAccount()
+  const { open } = useAppKit()
   const publicClient = usePublicClient()
   const { data: walletClient } = useWalletClient()
   const { userStore, dreamStore } = useStore()
@@ -273,11 +275,12 @@ export default function CreateDreamModal({
               Cancel
             </button>
             <button
-              type="submit"
-              disabled={!address || loading}
+              type={!address ? 'button' : 'submit'}
+              onClick={!address ? () => open() : undefined}
+              disabled={loading}
               className="flex-1 px-4 py-2 rounded-lg bg-gray-800 text-white hover:bg-gray-700 transition-all disabled:opacity-50"
             >
-              {loading ? 'Creating...' : 'Create ✨'}
+              {loading ? 'Creating...' : !address ? 'Connect Wallet' : 'Create ✨'}
             </button>
           </div>
           </form>

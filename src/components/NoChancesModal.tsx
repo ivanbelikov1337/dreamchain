@@ -12,8 +12,8 @@ export default function NoChancesModal({ isOpen, onClose, chances }: NoChancesMo
   if (!isOpen) return null
 
   return (
-    <div className="fixed top-0 left-0 right-0 bottom-0 bg-black bg-opacity-75 flex items-center justify-center z-50">
-      <div className="glass rounded-2xl p-8 max-w-md w-full">
+    <div className="fixed top-0 left-0 right-0 bottom-0 bg-black bg-opacity-75 flex items-center justify-center z-50" onClick={onClose}>
+      <div className="glass rounded-2xl p-8 max-w-md w-full" onClick={(e) => e.stopPropagation()}>
         <h2 className="text-2xl font-bold text-white mb-4 gradient-text">{t('noChancesModal.title')}</h2>
 
         <div className="space-y-4">

@@ -94,4 +94,22 @@ export class UserStore {
       throw err
     }
   }
+
+  async refreshCurrentUser(address: string) {
+    this.currentUserLoading = true
+    this.currentUserError = null
+    try {
+      const user = await usersAPI.getByWallet(address)
+      if (user) {
+        this.currentUser = user
+      }
+      return user
+    } catch (err) {
+      this.currentUserError = err instanceof Error ? err.message : 'Failed to refresh user'
+      console.error('Error refreshing user:', err)
+      throw err
+    } finally {
+      this.currentUserLoading = false
+    }
+  }
 }

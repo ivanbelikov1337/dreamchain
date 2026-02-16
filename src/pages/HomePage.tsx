@@ -19,7 +19,7 @@ const HomePage = observer(function HomePage({
   const { address } = useAccount()
 
   useEffect(() => {
-    dreamStore.loadDreams(1, 3)
+    dreamStore.loadDreams(1, 6)
     dreamStore.loadDreamStats()
   }, [dreamStore])
 
